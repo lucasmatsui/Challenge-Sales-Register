@@ -1,0 +1,171 @@
+@import 'globalStyles';
+@import 'error404';
+@import 'notify';
+@import 'modalMain';
+
+@import 'home';
+
+
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: #cfd8ff;
+}
+
+
+#message, #messageSales {
+    display: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.warning {
+    background-color: #FBFFC4;
+    color: #E8DD61;
+    font-weight: 400;
+}
+
+.danger {
+    background-color: #f88484;
+    color: #970a0a;
+    font-weight: 400;
+}
+
+.success {
+    background-color: #84f8a1;
+    color: #56a86a;
+    font-weight: 400;
+}
+
+#messageReport {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    padding: 5px 2px;
+    border-radius: 5px;
+}
+
+.SendReport {
+    position: absolute;
+    top: 50px;
+    left: 160px;
+    width: 120px;
+    height: 50px;
+    background-color: #828fda;
+    box-shadow: 4px 4px 1px #cfd8ff;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: 0;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.7;
+    }
+    &:active {
+        box-shadow: 2px 2px 1px #cfd8ff;
+        font-size: 13.5px;
+    }
+
+}
+
+.daterangepicker {
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+    .hourselect{
+        ::-webkit-scrollbar-track {
+            background-color: #F4F4F4;
+           
+        }
+        ::-webkit-scrollbar {
+            width: 4px;
+            background: #F4F4F4;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #828fda;
+            border-radius: 10px;
+        }
+    }
+    td.off,  td.off.in-range, td.off.start-date,td.off.end-date {
+        color: #c5c5c5 !important;
+    }
+    .calendar-table th, .calendar-table td{
+        font-weight: 300;
+    }
+    th.month{
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    th.next, th.prev{
+        padding: 4px;
+    }
+    td.start-date {
+        background-color: #1d8bf8 !important;
+        border-radius: 15px 0px 2px 0px !important;
+        box-shadow: 0px 3px 10px rgba(0,0,0,.4) !important;
+    }
+    td.end-date{
+        background-color: #ff7b7b !important;
+        border-radius: 2px 0px 15px 0px !important;
+        box-shadow: 0px 3px 10px rgba(0,0,0,.4) !important;
+    }
+    .drp-calendar{
+        width: 361px !important;
+        max-width: none !important;
+    }
+    .calendar-table table{
+        height: 265px !important;
+    }
+    .applyBtn 
+    {
+        border-radius: 4px;
+        background-color: #54a8fd;
+        border: 0;
+        box-shadow: 0px 5px 10px #a7d3ff;
+        font-size: 0.9rem;
+        color: #fff;
+        outline: 0;
+        &:hover{
+            background-color: #1d8bf8;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+    .applyBtn{
+        &:disabled{
+            background-color: #a4afb9;
+            color: rgb(144, 144, 144);
+        }
+    }
+    .cancelBtn 
+    {
+        border-radius: 4px;
+        background-color: rgb(255, 123, 123);
+        border:0;
+        box-shadow: 0px 4px 8px rgb(226, 142, 142);
+        font-size: 0.8rem;
+        color: #fff;
+        outline: 0;
+        &:hover{
+            background-color: rgba(161, 2, 2, 0.8);
+            color: #fff;
+            cursor: pointer
+        }
+    }
+}
+.floatThead-container{
+    z-index: 1 !important;
+}

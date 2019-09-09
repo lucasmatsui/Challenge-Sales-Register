@@ -21,4 +21,5 @@
 - Qualquer alteração no <b>styles.scss</b> recomendo que baixe a extensão do VScode <b>Live Sass Compiler</b> para buildar um css comum que o navegador entenda.
 
 ### Preview
+![projeto_registerSellers](https://user-images.githubusercontent.com/31348487/64559254-3dbf4100-d31c-11e9-9c10-e9f33c9c6b75.png)
 
